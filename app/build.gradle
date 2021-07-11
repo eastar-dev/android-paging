@@ -75,4 +75,9 @@ dependencies {
     implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
     implementation "com.squareup.retrofit2:retrofit-mock:$retrofitVersion"
     implementation "com.squareup.okhttp3:logging-interceptor:$okhttpLoggingInterceptorVersion"
+
+    //logger
+    debugImplementation 'com.github.eastar-dev.EastarLog2:log:2.1.9'
+    releaseImplementation 'com.github.eastar-dev.EastarLog2:logNoOp:2.1.9'
+    testImplementation 'com.github.eastar-dev.EastarLog2:logTest:2.1.9'
 }

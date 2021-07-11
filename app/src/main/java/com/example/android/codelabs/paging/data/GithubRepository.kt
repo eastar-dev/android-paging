@@ -16,7 +16,7 @@
 
 package com.example.android.codelabs.paging.data
 
-import android.util.Log
+import android.log.Log
 import com.example.android.codelabs.paging.api.GithubService
 import com.example.android.codelabs.paging.api.IN_QUALIFIER
 import com.example.android.codelabs.paging.model.Repo
